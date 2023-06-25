@@ -22,6 +22,10 @@ a {
   color: inherit;
 }
 
+a:hover {
+  color: var(--gray-2);
+}
+
 body {
   min-height: 100vh;
   /* position: relative; */
