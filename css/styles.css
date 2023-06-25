@@ -1,0 +1,132 @@
+:root {
+  --gray-1: #333333;
+  --gray-2: #4f4f4f;
+  --gray-3: #bdbdbd;
+  --white: #ffffff;
+  --sm-mobile: 14px;
+  --md-mobile: 18px;
+  --lg-mobile: 48px;
+  --sm-desktop: 14px;
+  --md-desktop: 24px;
+  --lg-desktop: 64px;
+  font-family: "Space Mono", monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  min-height: 100vh;
+  /* position: relative; */
+}
+
+.header {
+  height: 60px;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+}
+
+.header .header__title {
+  font-family: "Inconsolata", monospace;
+  font-size: var(--md-mobile);
+}
+
+.main {
+  display: grid;
+  width: 90%;
+  max-width: 1024px;
+  min-height: calc(100vh - 160px);
+  margin: 0 auto;
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+.main__img-container {
+  display: grid;
+  place-self: center;
+  place-items: center;
+}
+
+.main__img {
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+}
+
+.main__section-container {
+  place-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.main__section-tittle {
+  font-size: var(--lg-mobile);
+}
+
+.main__section-paragraph {
+  font-size: var(--md-mobile);
+  font-weight: 400;
+  width: 320px;
+}
+
+.main__buttom-homepage {
+  font-family: "Space Mono", monospace;
+  border: none;
+  background-color: var(--gray-1);
+  color: var(--white);
+  height: 68px;
+  width: 216px;
+  transition: 0.1s;
+}
+
+.main__buttom-homepage:active {
+  filter: opacity(0.6);
+  transform: scale(0.8);
+}
+
+.footer {
+  display: grid;
+  place-items: center;
+  height: 60px;
+  width: 100%;
+  padding: 0 auto;
+  margin-top: 40px;
+}
+
+.footer__paragraph {
+  font-family: "Montserrat", sans-serif;
+  color: var(--gray-2);
+}
+
+.footer__paragraph span {
+  text-decoration: underline;
+  font-weight: bold;
+  width: max-content;
+}
+
+@media (min-width: 800px) {
+  .main {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+  .main__section-tittle {
+    font-size: var(--lg-desktop);
+  }
+  .main__section-paragraph {
+    font-size: var(--md-desktop);
+    width: 400px;
+  }
+
+  .footer__paragraph {
+    font-size: var(--sm-desktop);
+  }
+}
