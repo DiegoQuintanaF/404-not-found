@@ -8,15 +8,24 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a 
+      href="https://four04-not-found-9pxm.onrender.com/" 
+      target="_blank"
+    >
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a 
+      href="https://github.com/DiegoQuintanaF/404-not-found" 
+      target="_blank"
+    >
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
+    <a 
+      href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY" 
+      target="_blank"
+    >
       Challenge
     </a>
   </h3>
@@ -27,23 +36,21 @@
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Built With](#built-with)
+- [Built With](#built-with)
 - [Features](#features)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+> Desktop view:
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+![screenshot](404-not-found-desktop.png)
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+> Mobile view:
+
+![screenshot](404-not-found-mobile.png)
 
 ### Built With
 
